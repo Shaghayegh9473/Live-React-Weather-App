@@ -1,2 +1,20 @@
+:root {
+  --primary-color: #f9f7fe;
+  --secondary-color: #878787;
+  --tertiary-color: #27214266;
+  --quaternary-color: #885df1;
+  --box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
+}
+
+#body {
+  background-color: var(--primary-color);
+}
+
 .App {
+  background-color: #fff;
+  max-width: 800px;
+  margin: 60px auto;
+  border-radius: 8px;
+  font-family: Arial, Helvetica, sans-serif;
+  box-shadow: var(--box-shadow);
 }
