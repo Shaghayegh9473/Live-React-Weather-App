@@ -84,7 +84,7 @@ export default function Weather(props) {
           and hosted on{" "}
           <a
             href="https://gleeful-trifle-0ed8de.netlify.app/"
-            target="_blank"
+            target="_self"
             rel="noopener noreferrer"
           >
             Netlify
