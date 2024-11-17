@@ -66,15 +66,27 @@ export default function Weather(props) {
         <WeatherInfo data={weatherData} />
         <footer>
           This project was coded by{" "}
-          <a href="#" target="_blank" rel="noopener noreferrer">
+          <a
+            href="https://mellifluous-zabaione-a90532.netlify.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             Shaghayegh K.
           </a>{" "}
           and is open-sourced on{" "}
-          <a href="#" target="_blank" rel="noopener noreferrer">
+          <a
+            href="https://github.com/Shaghayegh9473/Live-React-Weather-App"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             GitHub
           </a>{" "}
           and hosted on{" "}
-          <a href="#" target="_blank" rel="noopener noreferrer">
+          <a
+            href="https://github.com/Shaghayegh9473/Live-React-Weather-App"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             Netlify
           </a>
         </footer>
