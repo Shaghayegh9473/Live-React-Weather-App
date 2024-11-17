@@ -46,6 +46,10 @@ form .btn {
   padding: 15px 0;
 }
 
+form .btn:hover {
+  color: var(--quaternary-color);
+}
+
 footer {
   color: var(--tertiary-color);
   font-size: 14px;
