@@ -83,7 +83,7 @@ export default function Weather(props) {
           </a>{" "}
           and hosted on{" "}
           <a
-            href="https://github.com/Shaghayegh9473/Live-React-Weather-App"
+            href="https://gleeful-trifle-0ed8de.netlify.app/"
             target="_blank"
             rel="noopener noreferrer"
           >
