@@ -14,7 +14,7 @@
   padding: 40px;
 }
 
-a .logo {
+.Weather a .logo {
   display: block;
   max-width: 150px;
 }
@@ -46,6 +46,18 @@ form .btn {
   padding: 15px 0;
 }
 
+footer {
+  color: var(--tertiary-color);
+  font-size: 14px;
+  text-align: center;
+  line-height: 18px;
+  margin-top: 40px;
+}
+
+footer a {
+  color: var(--quaternary-color);
+}
+
 .weatherInfo {
   margin-top: 20px;
   padding-bottom: 50px;
@@ -61,7 +73,7 @@ h1 {
 
 ul {
   margin: 0;
-  padding-left: 0;
+  padding: 0;
 }
 
 li {
@@ -84,7 +96,10 @@ li strong {
 }
 
 .temperature-container img {
-  margin: 10px 0;
+  /* ???????????????????????? */
+  margin-top: 5px;
+  margin-right: 10px;
+  display: inline-block;
 }
 
 .temperature {
@@ -94,7 +109,6 @@ li strong {
   line-height: 1;
   margin-left: 10px;
 }
-
 .unit {
   color: var(--senary-color);
   font-size: 28px;
@@ -102,16 +116,4 @@ li strong {
   line-height: 1;
   position: relative;
   top: -34px;
-}
-
-footer {
-  color: var(--tertiary-color);
-  font-size: 14px;
-  text-align: center;
-  line-height: 18px;
-  margin-top: 40px;
-}
-
-footer a {
-  color: var(--quaternary-color);
 }
