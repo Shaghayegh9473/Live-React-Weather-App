@@ -10,6 +10,7 @@
 }
 
 .Weather {
+  font-family: Arial, Helvetica, sans-serif;
   padding: 40px;
 }
 
@@ -53,14 +54,14 @@ form .btn {
 
 h1 {
   font-size: 38px;
-  font-weight: 700;
+  font-weight: 900;
   line-height: 48px;
   margin: 20px 0 10px;
 }
 
 ul {
   margin: 0;
-  padding: 0;
+  padding-left: 0;
 }
 
 li {
