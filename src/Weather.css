@@ -124,3 +124,31 @@ WeatherIcon {
   position: relative;
   top: -34px;
 }
+
+@media (max-width: 480px) {
+  .App {
+    margin: 70px 20px;
+  }
+  h1 {
+    font-size: 24px !important;
+  }
+
+  form .btn-primary {
+    font-size: 14px;
+    padding: 15px 10px;
+    margin-left: -10px;
+    width: 150% !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .App {
+    margin: 90px 25px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .App {
+    margin: 100px auto;
+  }
+}
