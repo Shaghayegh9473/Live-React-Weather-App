@@ -14,7 +14,8 @@ export default function Weather(props) {
       temperature: response.data.temperature.current,
       humidity: response.data.temperature.humidity,
       description: response.data.condition.description,
-      icon: `http://shecodes-assets.s3.amazonaws.com/api/weather/icons/${response.data.condition.icon_url}`,
+      icon: `${response.data.condition.icon}`,
+      // `http://shecodes-assets.s3.amazonaws.com/api/weather/icons/${response.data.condition.icon_url}`,
       wind: response.data.wind.speed,
       date: new Date(response.data.time * 1000),
     });
@@ -59,7 +60,11 @@ export default function Weather(props) {
               />
             </div>
             <div className="col-3">
-              <input type="submit" value="Search" className="btn w-100" />
+              <input
+                type="submit"
+                value="Search"
+                className="btn btn-primary w-100"
+              />
             </div>
           </div>
         </form>
