@@ -67,8 +67,6 @@ footer a {
 
 .weatherInfo {
   margin-top: 20px;
-  padding-bottom: 50px;
-  border-bottom: var(--border-bottom);
 }
 
 h1 {
